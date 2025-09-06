@@ -1,15 +1,12 @@
 module.exports = {
-   content: ["./src/**/*.html"],
+   content: ["./*.html", "./src/**/*.html"],
    theme: {
      extend: {
        colors: {
-         brand: "#1e40af" // фирменный цвет
+         brand: "#1e40af",
        },
-       fontFamily: {
-         sans: ["Inter", "sans-serif"]
-       }
      },
    },
-   plugins: [require('@tailwindcss/typography')],
+   plugins: [require("@tailwindcss/typography")],
  };
  
